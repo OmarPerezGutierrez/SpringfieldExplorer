@@ -1,0 +1,75 @@
+/* CSS/visualizarCuriosidades.css */
+
+body {
+    font-family: 'Caveat', cursive;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    background-image: url('../Images/fondo.png');
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#curiosidad-container {
+    background-color: rgba(200, 200, 200, 0.8); /* Gris semi-transparente */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    overflow: hidden;
+    width: 500px;
+}
+
+.curiosidad-card {
+    padding: 30px;
+    text-align: center;
+}
+
+.curiosidad-card h2 {
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.curiosidad-card p {
+    color: #666;
+}
+
+button {
+    background-color: #ff4500;
+    color: #fff;
+    border: none;
+    padding: 12px;
+    margin: 5px;
+    width: 30%;
+    cursor: pointer;
+    font-family: 'Caveat', cursive;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #ff7300;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px; /* Ajusta el margen superior según sea necesario */
+}
+
+/* Estilo para el caso en que no haya curiosidades */
+#curiosidad-container.no-curiosities .curiosidad-card {
+    text-align: center;
+    padding: 40px;
+    color: #888;
+}
+
+#curiosidad-container.no-curiosities h2 {
+    margin-bottom: 20px;
+    color: #555;
+}
+
+#regresar-menu {
+    margin-top: 20px; /* Ajusta el margen superior según sea necesario */
+}

@@ -1,0 +1,45 @@
+body {
+    font-family: 'Caveat', cursive;
+    margin: 0;
+    padding: 0;
+    background-image: url('../Images/fondo.png');
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-container {
+    background-color: rgba(240, 240, 240, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.random-characters-container {
+    color: #000000; 
+    font-size: 50px;
+    text-align: center;
+}
+
+h1, button {
+    margin: 10px 0;
+    font-family: 'Caveat', cursive; 
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #ff4500;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 25px;
+}
+
+button:hover {
+    background-color: #ff7300;
+}

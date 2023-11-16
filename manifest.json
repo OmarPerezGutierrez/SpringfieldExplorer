@@ -1,0 +1,16 @@
+{
+  "name": "Springfield",
+  "short_name": "Springfield",
+  "description": "Informacion de Serie SimpSop",
+  "start_url": "/Index.php",
+  "display": "standalone",
+  "background_color": "#fff",
+  "theme_color": "#333",
+  "icons": [
+      {
+          "src": "Images/512.png",
+          "sizes": "512x512",
+          "type": "image/png"
+      }
+  ]
+}

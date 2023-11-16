@@ -1,0 +1,111 @@
+body {
+    font-family: 'Caveat', cursive; 
+    padding: 0;
+    background-image: url('../Images/fondo.png');
+    background-size: 100% 100%;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-container {
+    color: #FFFF00;
+    background-color: rgba(240, 240, 240, 0.7); 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    font-size: 50px; 
+}
+
+
+h1, h2, .card {
+    text-align: center;
+    margin: 10px 0;
+}
+
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #ff4500;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: 'Caveat', cursive;
+    font-size: 25px;
+}
+
+button:hover {
+    background-color: #ff7300;
+}
+
+#splash {
+    text-align: center;
+    color: #fff;
+}
+
+#splash img {
+    width: 250px;
+    height: 250px;
+}
+
+#main {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    color: #FFC915;
+    align-items: center;
+}
+
+#image-container, #character-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    color: #FFFF00; 
+    font-size: 50px;
+    text-align: center;
+    padding: 40px;
+    background-color: #ffffff0a;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 250px;
+    line-height: 1.5;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); 
+}
+
+.card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.notification {
+    background-color: #ff4500;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 10px;
+    display: none;
+}
+
+.notification.show {
+    display: block;
+}
+
+input {
+    width: 45%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}

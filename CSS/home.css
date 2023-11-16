@@ -1,0 +1,46 @@
+body {
+    font-family: 'Caveat', cursive; 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    background-size: 100% 100%;
+    background-position: center;
+    background-image: url('../Images/fondo.png');
+}
+
+#home {
+    width: 100%;
+    text-align: center; 
+}
+
+.card-container {
+    background-color: #ececec; 
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    display: inline-block; 
+}
+
+.video-container {
+    position: relative;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+#mainVideo {
+    width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.loading-message {
+    padding: 10px;
+    text-align: center;
+}
